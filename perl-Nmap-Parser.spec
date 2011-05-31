@@ -1,9 +1,9 @@
 %define upstream_name    Nmap-Parser
-%define upstream_version 1.2
+%define upstream_version 1.21
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:    Parse nmap scan data with perl
 License:    GPL+ or Artistic
