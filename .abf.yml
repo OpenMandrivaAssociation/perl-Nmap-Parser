@@ -1,2 +1,4 @@
+removed_sources:
+  Nmap-Parser-1.21.tar.gz: 33375e391622684b8236ba4b4bf8f51adcff70ce
 sources:
-  "Nmap-Parser-1.21.tar.gz": 33375e391622684b8236ba4b4bf8f51adcff70ce
+  Nmap-Parser-1.31.tar.gz: 650c262ef04d150e252c301d3a8169deea45eb48
