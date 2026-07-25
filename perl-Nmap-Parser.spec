@@ -1,15 +1,15 @@
 %define upstream_name    Nmap-Parser
-%define upstream_version 1.31
+%define upstream_version 1.37
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 1.31
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Parse nmap scan data with perl
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Nmap/Nmap-Parser-1.31.tar.gz
+Url:		https://metacpan.org/dist/Nmap-Parser
+Source0:	https://cpan.metacpan.org/authors/id/A/AP/APERSAUD/Nmap-Parser-1.37.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
